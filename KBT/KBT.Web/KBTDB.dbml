@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="KBTDB" Class="KBTDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=KBTDB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="KBTDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Orders" Member="Orders">
+    <Type Name="Order">
+      <Column Name="OrderID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CustomerDealerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductTypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductUnitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderProductSerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OrderProductColor" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="OrderProductManufactureYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KmInUse" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PaymentService" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Order_OrderDetail" Member="OrderDetails" ThisKey="OrderID" OtherKey="OrderID" Type="OrderDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderDetail" Member="OrderDetails">
+    <Type Name="OrderDetail">
+      <Column Name="OrderDetailID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderQty" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ProductPriceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CostID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderCategoryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BasePrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Total" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PPN" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="KmInUse" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ServiceQuantity" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Association Name="Order_OrderDetail" Member="Order" ThisKey="OrderID" OtherKey="OrderID" Type="Order" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

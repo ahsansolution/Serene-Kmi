@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="KBTDB">
+  <DataContextMoniker Name="/KBTDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="164d65fa-37b4-4778-b24b-32cb9148685e" absoluteBounds="4.5, 1.25, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/KBTDBDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f61adbba-8b54-4efc-8233-113492a25cd1" absoluteBounds="4.515, 1.71, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="469be320-d23c-47b8-be86-23cffb1706af" absoluteBounds="2, 1.375, 2, 3.1170068359375">
+      <DataClassMoniker Name="/KBTDBDataContext/OrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04ddedec-2f8e-4e2e-8a27-8bec4cf8d17b" absoluteBounds="2.015, 1.835, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 2.93350341796875); (4 : 2.93350341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KBTDBDataContext/Order/Order_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="164d65fa-37b4-4778-b24b-32cb9148685e" />
+        <classShapeMoniker Id="469be320-d23c-47b8-be86-23cffb1706af" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

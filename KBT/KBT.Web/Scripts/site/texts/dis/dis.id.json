@@ -1,0 +1,82 @@
+﻿{
+  //"Db.DIS.Company.CompanyId": "Kode Perusahaan",
+  //"Db.DIS.Company.Address": "Alamat",
+  //"Db.DIS.Company.CompanyName": "Nama Perusahaan",
+  //"Db.DIS.Company.Fax": "Fax",
+  //"Db.DIS.Company.Logo": "Logo",
+  //"Db.DIS.Company.Phone": "Telpon",
+
+  //"Db.DIS.OrderCategory.OrderCategoryId": "Kode",
+  //"Db.DIS.OrderCategory.OrderCategoryName": "Nama Kategori",
+  //"Db.DIS.OrderCategory.Description": "Deskripsi",
+
+  //"Db.DIS.ProductCategory.ProductCategoryId": "Kode",
+  //"Db.DIS.ProductCategory.ProductCategoryName": "Kategori Barang",
+
+  //"Db.DIS.ProductType.ProductTypeId": "Kode",
+  //"Db.DIS.ProductType.ProductTypeName": "Tipe Barang",
+
+  //"Db.DIS.Products.ProductId": "Kode Barang",
+  //"Db.DIS.Products.ProductName": "Nama Barang",
+  //"Db.DIS.Products.ProductNumber": "Part Number",
+  //"Db.DIS.Products.ProductCategoryId": "Kategori Barang",
+  //"Db.DIS.Products.ProductTypeId": "Tipe Barang",
+  //"Db.DIS.Products.ProductCategoryProductCategoryName": "Kategori Barang",
+  //"Db.DIS.Products.ProductTypeProductTypeName": "Tipe Barang",
+  //"Db.DIS.Products.Discontinued": "Masih Berlaku",
+  //"Db.DIS.Products.Description": "Keterangan",
+  //"Db.DIS.Products.BinLocation": "Lokasi",
+
+  //"Db.DIS.ProductPrice.ProductId": "Kode Barang",
+  //"Db.DIS.ProductPrice.ProductProductName": "Nama Barang",
+  //"Db.DIS.ProductPrice.OrderCategoryOrderCategoryName": "Kode Pemesanan",
+  //"Db.DIS.ProductPrice.OrderCategoryId": "Kode Pemesanan",
+  //"Db.DIS.ProductPrice.Price": "Harga",
+  //"Db.DIS.ProductPrice.IsActive": "Masih Berlaku",
+  //"Db.DIS.ProductPrice.EntryDate": "Tanggal Input",
+
+  //"Db.DIS.Inventory.ProductId": "Kode Barang",
+  //"Db.DIS.Inventory.OrderCategoryId": "Kode Pemesanan",
+  //"Db.DIS.Inventory.Qty": "Jumlah",
+  //"Db.DIS.Inventory.ProductProductName": "Nama Barang",
+  //"Db.DIS.Inventory.OrderCategoryOrderCategoryName": "Kode Pemesanan",
+
+  //"Db.DIS.Cost.CostId": "Kode Biaya",
+  //"Db.DIS.Cost.CostName": "Nama Biaya",
+  //"Db.DIS.Cost.Amount": "Jumlah",
+  //"Db.DIS.Cost.Percentage": "Persen",
+
+
+  //"Db.DIS.PurchaseOrder.PurchaseOrderNumber": "No PO",
+  //"Db.DIS.PurchaseOrder.CompanyName": "Perusahaan",
+  //"Db.DIS.PurchaseOrder.PurchaseOrderDate": "Tanggal PO",
+  //"Db.DIS.PurchaseOrder.CostId": "Biaya",
+  //"Db.DIS.PurchaseOrder.CostCostName": "Biaya",
+  //"Db.DIS.PurchaseOrder.OrderCategoryId": "Kode Pemesanan",
+  //"Db.DIS.PurchaseOrder.PurchaseOrderOrderCategoryName": "Kode Pemesanan",
+  //"Db.DIS.PurchaseOrder.PurchaseOrderStatus": "Status PO",
+
+  //"Db.DIS.ReceiveOrder.ReceiveOrderNumber": "No RO",
+  //"Db.DIS.ReceiveOrder.ReceiveDate": "Tanggal Penerimaan",
+  //"Db.DIS.ReceiveOrder.ReceiveBy": "Penerima",
+  //"Db.DIS.ReceiveOrder.AcknowledgeBy": "Mengetahui",
+  //"Db.DIS.ReceiveOrder.ReceiveOrderStatus": "Status RO",
+
+  //"Db.DIS.ReceiveOrderDetail.ReceiveOrderNumber": "No RO",
+  //"Db.DIS.ReceiveOrderDetail.POQty": "Jml Pesanan",
+  //"Db.DIS.ReceiveOrderDetail.ReceiveQty": "Jml Diterima",
+  //"Db.DIS.ReceiveOrderDetail.ProductName": "Nama Barang",
+  //"Db.DIS.ReceiveOrderDetail.BackOrderQty": "Jml Blm Diterima",
+  //"Db.DIS.ReceiveOrderDetail.Price": "Harga",
+  //"Db.DIS.ReceiveOrderDetail.BinLocation": "Lokasi Penyimpanan",
+  //"Db.DIS.ReceiveOrderDetail.ReceiveComplete": "Status Penerimaan",
+
+  //"Db.DIS.CustomerDealer CustomerDealerName": "Nama Pelanggan",
+  //"Db.DIS.CustomerDealer.Address": "Alamat",
+
+  //"Db.DIS.Orders.OrderDate": "Tanggal Order",
+  //"Db.DIS.Orders.CustomerDealerCustomerDealerName": "Nama Pelanggan"
+
+
+
+}
